@@ -1,19 +1,26 @@
-# MARSE INTELLICORP — Basic Website
+# MARSE INTELLICORP — Website V2
 
-A simple, responsive, technology-agnostic MARSE INTELLICORP website.
+A premium, responsive, technology-agnostic MARSE INTELLICORP website focused on AI, advanced computing, infrastructure, industry solutions and technology ecosystems.
+
+## Current positioning
+
+**Your partner for AI & Advanced Technology.**
+
+MARSE INTELLICORP helps organizations design, build and deploy AI, advanced computing and intelligent technology solutions.
+
+The site also includes an NVIDIA Preferred Partner credential using the supplied NVIDIA logo asset.
 
 ## Files
 
-- `index.html` — main website
-- `styles.css` — design and responsive styling
-- `script.js` — mobile navigation
-- `assets/marse-logo.png` — MARSE wordmark extracted from the supplied logo PDF; the "a Mehala Group Company" line is intentionally excluded.
+- `index.html` — complete homepage and content structure
+- `styles.css` — visual system, responsive layout and animations
+- `script.js` — mobile navigation, scroll reveals and lightweight hero interaction
+- `assets/brand/marse-logo.png` — MARSE wordmark
+- `assets/partners/nvidia-logo.png` — supplied NVIDIA logo
 
 ## Run locally
 
-You can simply double-click `index.html` to preview it.
-
-For a local server, from this folder run:
+From this folder:
 
 ```bash
 python -m http.server 8000
@@ -21,25 +28,12 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## Free deployment
+## Deployment
 
-### Vercel
-1. Create a free GitHub account/repository.
-2. Upload these files to the repository.
-3. Sign in to Vercel with GitHub.
-4. Import the repository.
-5. Deploy. No build command is required for this static version.
-
-### GitHub Pages
-The site can also be hosted directly with GitHub Pages.
+This is a static site. Push the files to the `main` branch of the GitHub repository and Vercel will redeploy automatically.
 
 ## Before launch
 
-Replace:
-- `info@marseintellicorp.com`
-- placeholder company/about text
-- industry list if needed
-- technology partner details
-- any solution descriptions that are not yet finalized
+Replace the placeholder contact email with MARSE's official email address and confirm the exact authorized NVIDIA partner designation/logo usage before public launch.
 
-Do not add a "Mehala Group Company" tagline unless the MARSE brand strategy is changed later.
+The MARSE logo is used without the “a Mehala Group Company” tagline.
