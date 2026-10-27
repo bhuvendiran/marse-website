@@ -1,12 +1,12 @@
-# MARSE INTELLICORP — Website V2
+# MARSÉ INTELLICORP — Website V2
 
-A premium, responsive, technology-agnostic MARSE INTELLICORP website focused on AI, advanced computing, infrastructure, industry solutions and technology ecosystems.
+A premium, responsive, technology-agnostic MARSÉ INTELLICORP website focused on AI, advanced computing, infrastructure, industry solutions and technology ecosystems.
 
 ## Current positioning
 
 **Your partner for AI & Advanced Technology.**
 
-MARSE INTELLICORP helps organizations design, build and deploy AI, advanced computing and intelligent technology solutions.
+MARSÉ INTELLICORP helps organizations design, build and deploy AI, advanced computing and intelligent technology solutions.
 
 The site also includes an NVIDIA Preferred Partner credential using the supplied NVIDIA logo asset.
 
@@ -15,7 +15,7 @@ The site also includes an NVIDIA Preferred Partner credential using the supplied
 - `index.html` — complete homepage and content structure
 - `styles.css` — visual system, responsive layout and animations
 - `script.js` — mobile navigation, scroll reveals and lightweight hero interaction
-- `assets/brand/marse-logo.png` — MARSE wordmark
+- `assets/brand/marse-logo.png` — MARSÉ wordmark
 - `assets/partners/nvidia-logo.png` — supplied NVIDIA logo
 
 ## Run locally
