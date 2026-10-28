@@ -385,3 +385,38 @@ footer { background:#050606; color:#8b8f92; border-top:1px solid rgba(255,255,25
   html{scroll-behavior:auto;}
   *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;}
 }
+
+/* ACCESSIBILITY / READABILITY REFINEMENTS */
+/* Make the five-step process easier to scan at desktop and mobile sizes. */
+.process-step span {
+  font-size: 11px;
+}
+.process-step h3 {
+  font-size: clamp(29px, 2.1vw, 34px);
+  line-height: 1.05;
+}
+.process-step p {
+  font-size: 13px;
+  line-height: 1.55;
+  max-width: 230px;
+}
+
+/* Increase contrast of capability tags against the dark cards. */
+.card-tags span {
+  color: #f0f1f2;
+  border-color: rgba(255, 255, 255, .28);
+  background: rgba(255, 255, 255, .045);
+  padding: 6px 9px;
+  font-size: 9px;
+  letter-spacing: .11em;
+  text-shadow: 0 0 8px rgba(255, 255, 255, .12);
+}
+.capability-card:hover .card-tags span {
+  border-color: rgba(255, 255, 255, .4);
+}
+
+@media (max-width: 700px) {
+  .process-step h3 { font-size: 29px; }
+  .process-step p { font-size: 14px; }
+  .card-tags span { font-size: 9px; }
+}
