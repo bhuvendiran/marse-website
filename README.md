@@ -8,7 +8,7 @@ A premium, responsive, technology-agnostic MARSÉ INTELLICORP website focused on
 
 MARSÉ INTELLICORP helps organizations design, build and deploy AI, advanced computing and intelligent technology solutions.
 
-The site also includes an NVIDIA Preferred Partner credential using the supplied NVIDIA logo asset.
+The site includes a strategic technology partner section featuring the supplied NVIDIA logo asset.
 
 ## Files
 
@@ -34,6 +34,6 @@ This is a static site. Push the files to the `main` branch of the GitHub reposit
 
 ## Before launch
 
-Replace the placeholder contact email with MARSE's official email address and confirm the exact authorized NVIDIA partner designation/logo usage before public launch.
+The official contact email is info@marseintelli.co. Confirm authorized NVIDIA logo usage before public launch.
 
 The MARSE logo is used without the “a Mehala Group Company” tagline.
