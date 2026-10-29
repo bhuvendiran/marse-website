@@ -102,11 +102,11 @@ h2 em { color:var(--red); font-style:normal; }
 .visual-node { position:absolute; z-index:4; min-width:112px; padding:13px 14px; border:1px solid rgba(255,255,255,.12); background:rgba(8,9,10,.9); display:flex; flex-direction:column; gap:4px; }
 .visual-node span { font:700 14px/1 "Space Grotesk",sans-serif; color:#fff; }
 .visual-node small { color:#a3a8ad; font-size:9px; letter-spacing:.11em; }
-.node-ai { left:9%; top:18%; animation:planetPop 4.8s ease-in-out infinite; }
-.node-compute { right:8%; top:25%; animation:planetPop 4.8s ease-in-out 1s infinite; }
-.node-infra { right:10%; bottom:18%; animation:planetPop 4.8s ease-in-out 2s infinite; }
-.node-app { left:9%; bottom:24%; animation:planetPop 4.8s ease-in-out 3.84s infinite; }
-.node-eco { left:45%; bottom:5%; transform:translateX(-50%); animation:planetPopCentered 4.8s ease-in-out 2.88s infinite; }
+.node-ai { left:9%; top:18%; animation:planetPop 7.5s ease-in-out infinite; }
+.node-compute { right:8%; top:25%; animation:planetPop 7.5s ease-in-out 1.5s infinite; }
+.node-infra { right:10%; bottom:18%; animation:planetPop 7.5s ease-in-out 3s infinite; }
+.node-app { left:9%; bottom:24%; animation:planetPop 7.5s ease-in-out 6s infinite; }
+.node-eco { left:45%; bottom:5%; transform:translateX(-50%); animation:planetPopCentered 7.5s ease-in-out 4.5s infinite; }
 .scan-line { position:absolute; left:4%; right:4%; top:50%; height:1px; background:linear-gradient(90deg,transparent,var(--red),transparent); opacity:.4; animation:scan 5s ease-in-out infinite; }
 .hero-bottom { position:relative; z-index:3; margin-top:25px; display:flex; align-items:center; gap:14px; color:#a0a5aa; font:700 8px/1 "Space Grotesk",sans-serif; letter-spacing:.18em; text-transform:uppercase; }
 .hero-bottom i { width:3px; height:3px; border-radius:50%; background:var(--red); opacity:.7; }
